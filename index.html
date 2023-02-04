@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+
+    <nav class="navbar flex">
+        <div class="left flex">
+            <img class="left-img" src="assets/asset 0.png" alt="">
+            <a class="left-item" href="">Home</a>
+            <a class="left-item" href="">Gift</a>
+            <a class="left-item" href="">Order</a>
+            <a class="left-item" href="">Pay</a>
+            <a class="left-item" href="">Store</a>
+        </div>
+        <div class="right flex">
+            <input class="right-item" type="text" placeholder="Looking for something specific?">
+            <img class="right-item" src="assets/asset 2.svg" alt="">
+        </div>
+    </nav>
+
+
+    <!-- section-2 -->
+
+
+    <section class="section-2 flex">
+        <h3>Rewards are pouring! Sign up now</h3>
+        <button class="primary-btn">know More</button>
+    </section>
+
+    <!-- Image section -->
+
+    <section class="sample flex">
+        <h2>Handcrafted Curations</h2>
+        <div class="sample-imgs flex">
+            <div class="sample-img flex">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Bestseller.jpg" alt="">
+                <p>Bestseller</p>
+            </div>
+            <div class="sample-img flex">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Drinks.jpg" alt="">
+                <p>Drinks</p>
+            </div>
+            <div class="sample-img flex">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Food.jpg" alt="">
+                <p>Food</p>
+            </div>
+            <div class="sample-img flex">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Merchandise.jpg" alt="">
+                <p>Merchandise</p>
+            </div>
+            <div class="sample-img flex">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/CoffeeAtHome.jpg" alt="">
+                <p>Coffee At Home</p>
+            </div>
+            <div class="sample-img flex">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/ReadyToEat.jpg" alt="">
+                <p>Ready to Eat</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 (slider)-->
+
+    <section class="section-3">
+        <div class="flex section-3-head">
+            <h2>Barista Recommends</h2>
+            <button class="primary-btn">View Menu</button>
+        </div>
+
+        <button class="left-btn slider-btn" onclick="goNext()"><img src="assets/asset 17.svg" alt=""></button>
+        <button class="Right-btn slider-btn" onclick="goPrev()"><img src="./assets/asset 18.svg" alt=""></button>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="slide-up flex">
+                    <div class="slide-img">
+                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/100501.jpg" alt="">
+                    </div>
+                    <div class="slide-txt">
+                        <img src="assets/asset 4.svg" alt="">
+                        <h4>Java Chip frappuccino</h4>
+                        <p>Tall(354 ML). 354 kcal</p>
+                    </div>
+                </div>
+                <div class="slide-btm flex">
+                    <h3>$351.75</h3>
+                    <button class="primary-btn">Add Item</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-up flex">
+                    <div class="slide-img">
+                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/105468.jpg" alt="">
+                    </div>
+                    <div class="slide-txt">
+                        <img src="assets/asset 4.svg" alt="">
+                        <h4>Cold coffee</h4>
+                        <p>Tall(354 ML). 354 kcal</p>
+                    </div>
+                </div>
+                <div class="slide-btm flex">
+                    <h3>$351.75</h3>
+                    <button class="primary-btn">Add Item</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-up flex">
+                    <div class="slide-img">
+                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/105000.jpg" alt="">
+                    </div>
+                    <div class="slide-txt">
+                        <img src="assets/asset 4.svg" alt="">
+                        <h4>Vanilla Sweet Cream Cold Brew</h4>
+                        <p>Tall(354 ML). 354 kcal</p>
+                    </div>
+                </div>
+                <div class="slide-btm flex">
+                    <h3>$351.75</h3>
+                    <button class="primary-btn">Add Item</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-up flex">
+                    <div class="slide-img">
+                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/105000.jpg" alt="">
+                    </div>
+                    <div class="slide-txt">
+                        <img src="assets/asset 4.svg" alt="">
+                        <h4>Vanilla Sweet Cream Cold Brew</h4>
+                        <p>Tall(354 ML). 354 kcal</p>
+                    </div>
+                </div>
+                <div class="slide-btm flex">
+                    <h3>$351.75</h3>
+                    <button class="primary-btn">Add Item</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-up flex">
+                    <div class="slide-img">
+                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/105000.jpg" alt="">
+                    </div>
+                    <div class="slide-txt">
+                        <img src="assets/asset 4.svg" alt="">
+                        <h4>Vanilla Sweet Cream Cold Brew</h4>
+                        <p>Tall(354 ML). 354 kcal</p>
+                    </div>
+                </div>
+                <div class="slide-btm flex">
+                    <h3>$351.75</h3>
+                    <button class="primary-btn">Add Item</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -4 (slider-2) -->
+
+
+    <div class="slide-container">
+        <div class="slide-2 flex" id="slide-2-1">
+            <div class="slide-2-left flex">
+                <div class="slide-2-left-img">
+                    <img src="assets/asset 5.png" alt="">
+                </div>
+                <div class="slide-2-left-txt flex">
+                    <p id="slide-2-left-txt-top">Special Offer</p>
+                    <h2>DOUBLE STARS</h2>
+                    <p> Double Your Stars on first 3 order placed through the app. Order from the wide menu range and
+                        collect it from the Barista.</p>
+                    <h6>Starting From</h6>
+                    <p>$250.00</p>
+                </div>
+            </div>
+            <div class="slide-2-right">
+                <button class="primary-btn">Order Now</button>
+            </div>
+        </div>
+        <div class="slide-2 flex" id="slide-2-2">
+            <div class="slide-2-left flex">
+                <div class="slide-2-left-img">
+                    <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Group_1313_209b3baa05.png"
+                        alt="">
+                </div>
+                <div class="slide-2-left-txt flex">
+                    <p id="slide-2-left-txt-top">Give Them A Piece Of Heart</p>
+                    <h2>Valentine Special</h2>
+                    <p> Our limited-edition range of essentials are worth melting for this chilly season.</p>
+                    <h6>Starting From</h6>
+                    <p>$372.00</p>
+                </div>
+            </div>
+            <div class="slide-2-right">
+                <button class="primary-btn">Order Now</button>
+            </div>
+        </div>
+        <div class="slide-2 flex" id="slide-2-3">
+            <div class="slide-2-left flex">
+                <div class="slide-2-left-img">
+                    <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Barista_Pride_ca8aec571f.png"
+                        alt="">
+                </div>
+                <div class="slide-2-left-txt flex">
+                    <p id="slide-2-left-txt-top">Introducing</p>
+                    <h2>Barista Pride Beverage</h2>
+                    <p> Double Your Stars on first 3 order placed through the app. Order from the wide menu range and
+                        collect it from the Barista.</p>
+                    <h6>Starting From</h6>
+                    <p>$250.00</p>
+                </div>
+            </div>
+            <div class="slide-2-right">
+                <button class="primary-btn">Order Now</button>
+            </div>
+        </div>
+        <div class="slide-2 flex" id="slide-2-4 ">
+            <div class="slide-2-left flex">
+                <div class="slide-2-left-img">
+                    <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Group_1249_39083973b4.png"
+                        alt="">
+                </div>
+                <div class="slide-2-left-txt flex">
+                    <p id="slide-2-left-txt-top">Buny hop into cozy winter Mood with</p>
+                    <h2>Winter Merchandise</h2>
+                    <p>Our limited-edition range of essentials are worth melting for this chilly season.</p>
+                    <h6>Starting From</h6>
+                    <p>$1700.00</p>
+                </div>
+            </div>
+            <div class="slide-2-right">
+                <button class="primary-btn">Order Now</button>
+            </div>
+        </div>
+    </div>
+    <button class="slider-2-btn slider-2-btn-left" onclick="goPrev2()"><img src="assets/asset 17.svg" alt=""></button>
+    <button class="slider-2-btn slider-2-btn-right" onclick="goNext2()"><img src="assets/asset 18.svg" alt=""></button>
+
+    <!-- section -5 -->
+
+    <h2 class="sec5txt">Latest Offerings</h2>
+
+    <div class="slide-container-2 flex">
+        <div class="slide-3">
+            <div class="slide-3-up">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/111874.jpg" alt="">
+            </div>
+            <div class="slide-3-middle">
+                <img src="assets/asset 4.svg" alt="">
+                <h4>Red Velvet Cheesecake Latte</h4>
+                <h6>SHORT(237ML).226 KCAL</h6>
+                <p>A delicious combination of rich in flavour espresso shot, milk, cheesecake flavoured syrup and Red
+                    velvet cake.</p>
+            </div>
+            <div class="slide-3-bottom flex">
+                <h4>$404.25</h4>
+                <button class="primary-btn">Add Item</button>
+            </div>
+        </div>
+        <div class="slide-3">
+            <div class="slide-3-up">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/113590.jpg" alt="">
+            </div>
+            <div class="slide-3-middle">
+                <img src="assets/asset 4.svg" alt="">
+                <h4>Red Velvet Cheesecake Latte</h4>
+                <h6>SHORT(237ML).226 KCAL</h6>
+                <p>A delicious combination of rich in flavour espresso shot, milk, cheesecake flavoured syrup and Red
+                    velvet cake.</p>
+            </div>
+            <div class="slide-3-bottom flex">
+                <h4>$404.25</h4>
+                <button class="primary-btn">Add Item</button>
+            </div>
+        </div>
+        <div class="slide-3">
+            <div class="slide-3-up">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/113597.jpg" alt="">
+            </div>
+            <div class="slide-3-middle">
+                <img src="assets/asset 4.svg" alt="">
+                <h4>Red Velvet Cheesecake Latte</h4>
+                <h6>SHORT(237ML).226 KCAL</h6>
+                <p>A delicious combination of rich in flavour espresso shot, milk, cheesecake flavoured syrup and Red
+                    velvet cake.</p>
+            </div>
+            <div class="slide-3-bottom flex">
+                <h4>$404.25</h4>
+                <button class="primary-btn">Add Item</button>
+            </div>
+        </div>
+        <div class="slide-3">
+            <div class="slide-3-up">
+                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/113594.jpg" alt="">
+            </div>
+            <div class="slide-3-middle">
+                <img src="assets/asset 4.svg" alt="">
+                <h4>Red Velvet Cheesecake Latte</h4>
+                <h6>SHORT(237ML).226 KCAL</h6>
+                <p>A delicious combination of rich in flavour espresso shot, milk, cheesecake flavoured syrup and Red
+                    velvet cake.</p>
+            </div>
+            <div class="slide-3-bottom flex">
+                <h4>$404.25</h4>
+                <button class="primary-btn">Add Item</button>
+            </div>
+        </div>
+        <button class="slider-2-btn slider-3-btn-left" onclick="goPrev3()"><img src="assets/asset 17.svg"
+                alt=""></button>
+        <button class="slider-2-btn slider-3-btn-right" onclick="goNext3()"><img src="assets/asset 18.svg"
+                alt=""></button>
+
+    </div>
+
+    <div class="spacer">
+
+    </div>
+
+    <!-- section 6 -->
+
+
+    <div class="section-6">
+        <div class="section-6-top flex">
+            <h2>Learn more about the world of coffee!</h2>
+            <p>Discover More</p>
+        </div>
+        <div class="section-6-img">
+            <img class="section-6-image"
+                src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/pexels_denys_gromov_4765838_2_be7bc79560.jpg"
+                alt="">
+        </div>
+        <div class="section-6-img-txt flex">
+            <div class="section-6-img-txt-top">
+                Coffee Culture
+            </div>
+            <div class="section-6-img-txt-bottom">
+                <h1>From Rust To Cappuccino</h1>
+                <p>Innovations that gave rise to the world of coffee.</p>
+                <button class="primary-btn">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer">
+        <div class="footer-top flex">
+            <div class="footer-1">
+                <img src="https://www.starbucks.in/assets/icon/logo.png" alt="">
+            </div>
+            <div class="footer-2">
+                <div class="footer-column flex">
+                    <h3>About Us</h3>
+                    <a class="footer-column-p" href="">Our Heritage</a>
+                    <a class="footer-column-p" href="">Our Company</a>
+                    <a class="footer-column-p" href="">Coffeehouse</a>
+                </div>
+            </div>
+            <div class="footer-3">
+                <div class="footer-column flex">
+                    <h3>Responsibility</h3>
+                    <a class="footer-column-p" href="">Community</a>
+                    <a class="footer-column-p" href="">Ethical Sourcing</a>
+                    <a class="footer-column-p" href="">Environment</a>
+                    <a class="footer-column-p" href="">Diversity</a>
+                </div>
+            </div>
+            <div class="footer-4">
+                <div class="footer-column flex">
+                    <h3>Quick Links</h3>
+                    <a class="footer-column-p" href="">Careers</a>
+                    <a class="footer-column-p" href="">Season's Gifting</a>
+                    <a class="footer-column-p" href="">FAQs</a>
+                    <a class="footer-column-p" href="">Customer Service</a>
+                    <a class="footer-column-p" href="">Delivery</a>
+                </div>
+            </div>
+            <div class="footer-5">
+                <div class="footer-column flex">
+                    <h3>SOCIAL MEDIA</h3>
+                    <div class="footer-link flex">
+                        <a class="footer-column-p" href=""
+                            style="background-image: url(https://www.starbucks.in/assets/icon/instagram.svg); width: 0.8cm; height: 0.8cm;"></a>
+                        <a class="footer-column-p" href=""
+                            style="background-image: url(https://www.starbucks.in/assets/icon/facebook.svg); width: 0.8cm; height: 0.8cm;"></a>
+                        <a class="footer-column-p" href=""
+                            style="background-image: url(https://www.starbucks.in/assets/icon/twitter.svg); width: 0.8cm; height: 0.8cm;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-6">
+                <div class="footer-column flex">
+                    <img src="assets/asset 13.png" alt="">
+                    <img src="assets/asset 14.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom flex">
+            <div class="footer-bottom-left flex">
+                <a class="footer-column-p" href="">Web Accessiblity</a>
+                <a class="footer-column-p" href="">Privacy Statement</a>
+                <a class="footer-column-p" href="">Terms of Use</a>
+                <a class="footer-column-p" href="">Contact Us</a>
+            </div>
+            <div class="footer-bottom-right">
+                <a class="footer-column-p" href="">© 2023 Starbucks Coffee Company. All rights reserved.</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
